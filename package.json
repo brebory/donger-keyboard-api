@@ -1,0 +1,39 @@
+{
+  "name": "donger-keyboard-api",
+  "version": "0.0.1",
+  "description": "API server and web scraper for dongers.",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brebory/donger-keyboard-api.git"
+  },
+  "keywords": [
+    "donger",
+    "donger-keyboard",
+    "dongers"
+  ],
+  "author": "Brendon Roberto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brebory/donger-keyboard-api/issues"
+  },
+  "homepage": "https://github.com/brebory/donger-keyboard-api#readme",
+  "devDependencies": {
+    "cheerio": "^0.20.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.7",
+    "request": "^2.72.0",
+    "through2": "^2.0.1",
+    "vinyl": "^1.1.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "extensive": "0.0.6",
+    "lodash": "^4.13.1",
+    "rekuire": "^0.1.9"
+  }
+}
